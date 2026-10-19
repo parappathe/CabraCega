@@ -1,0 +1,14 @@
+html, body { margin: 0; height: 100%; overflow: hidden; background: #05080d; font-family: system-ui, sans-serif; }
+#app canvas { display: block; }
+#xr {
+  position: fixed; right: 18px; bottom: 18px; padding: 12px 24px; font-size: 17px; font-weight: 700;
+  color: #08131f; background: #7fd6ff; border: 0; border-radius: 12px; cursor: pointer;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.5);
+}
+#xr:disabled { background: #2a3b4d; color: #b8cbe0; cursor: default; }
+#dica {
+  position: fixed; left: 16px; bottom: 18px; right: 340px; color: #eaf6ff; font-size: 14px; line-height: 1.5;
+  pointer-events: none;
+}
+#dica:empty { display: none; }
+#dica { background: rgba(6,14,26,0.75); padding: 6px 10px; border-radius: 8px; width: fit-content; }
